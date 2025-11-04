@@ -1,0 +1,43 @@
+# --- Spring Boot / Maven ---
+target/
+*.log
+
+# Ignore the application properties file (contains secrets!)
+application.properties
+
+# --- Maven Wrapper ---
+# Keep the wrapper jar, but ignore the rest of the .mvn dir
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# --- IDE Files ---
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
